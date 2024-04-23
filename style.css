@@ -1,0 +1,27 @@
+  .mainDiv {
+    margin: 50px 0 0 150px;
+    display: grid;
+    grid-template-columns: repeat(4, 160px);
+    grid-template-rows: repeat(4, 200px);
+    gap: 25px;
+  }
+
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+    border: 2px solid;
+    border-radius: 30px;
+
+  }
+
+  .card img{
+    width: 160px;
+    height: 200px;
+    border: 2px solid;
+    border-radius: 30px;
+
+
+  }
